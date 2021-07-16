@@ -12,7 +12,10 @@ terraform {
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
+  AWS_ACCESS_KEY_ID = "AKIAYZ7SDPK4DEBRGKUT"
+  AWS_SECRET_ACCESS_KEY = "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"
 }
+
 
 resource "tls_private_key" "keypair" {
   algorithm   = "RSA"
