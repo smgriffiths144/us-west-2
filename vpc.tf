@@ -43,7 +43,7 @@ resource "aws_route_table_association" "routetableassoc2" {
 resource "aws_subnet" "subnet1" {
   vpc_id            = aws_vpc.main.id
   availability_zone = "us-west-2a"
-  cidr_block        = "10.24.1.0/24"
+  cidr_block        = "10.24.21.0/24"
   map_public_ip_on_launch="true"
   tags = {
     Name = "subnet1"
@@ -55,7 +55,7 @@ resource "aws_subnet" "subnet1" {
 resource "aws_subnet" "subnet2" {
   vpc_id            = aws_vpc.main.id
   availability_zone = "us-west-2a"
-  cidr_block        = "10.24.2.0/24"
+  cidr_block        = "10.24.22.0/24"
   map_public_ip_on_launch="false"
   tags = {
     Name = "subnet2"
@@ -66,7 +66,7 @@ resource "aws_subnet" "subnet2" {
 resource "aws_subnet" "subnet3" {
   vpc_id            = aws_vpc.main.id
   availability_zone = "us-west-2b"
-  cidr_block        = "10.24.3.0/24"
+  cidr_block        = "10.24.23.0/24"
   map_public_ip_on_launch="false"
   tags = {
     Name = "subnet3"
