@@ -15,10 +15,10 @@ variable "instance_name" {
 
 variable "AWS_ACCESS_KEY_ID" {
   description = "AWS Access Key"
-  default     = "AKIAYZ7SDPK4DEBRGKUT"
+  default     = "AKIAZCDPN6TIOUUCBTXI"
 }
 
 variable "AWS_SECRET_ACCESS_KEY" {
   description = "AWS Secret Access Key"
-  default     = "8TgyWWXzYG+RZfPGTN1fzgPCE8mPZQXCzI9/SRjx"
+  default     = "KZY9fc8NKb5+l1AoWWAQcmCq7ArE/m3wlQWwf2ZE"
 }
